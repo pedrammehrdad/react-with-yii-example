@@ -3,7 +3,7 @@
 * React
 * MongoDB
 ### TO DO ###
-[ ] Remove extra file(defaults controller and etc) from Yii
+- [ ] Remove extra file(defaults controller and etc) from Yii
 ## Back-end ##  
 In backend directory run the following commands:  
 `composer install`  
@@ -14,7 +14,7 @@ Output:
 > Document root is "/home/mehrdad/www/tracker/backend/web"  
 > Quit the server with CTRL-C or COMMAND-C.    
 
-you can run `./yii serve -p PORT`  
+You can run `./yii serve -p PORT`  
 Notice to the port of host (8080 in my case)    
 
 Common problems:  
@@ -37,6 +37,6 @@ Or:
 `npm start`  
 and open http://localhost:3000  
 ## Data ##
-I used MongoDB here, if you want to set authentication for database edit backend/config/web.php find mongodb and enter username and password.
-Restore the data directory using the following command:  
+I used MongoDB here, if you want to set an authentication for database open backend/config/web.php and find mongodb and enter username and password of database.  
+Restore the sample data directory by using the following command:  
 `mongorestore -d tracker /path/to/data/directory`  
